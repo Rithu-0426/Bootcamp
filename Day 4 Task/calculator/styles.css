@@ -1,0 +1,56 @@
+body {
+    background-image: url(https://t4.ftcdn.net/jpg/04/35/21/27/360_F_435212700_7vEpXPO3dDWyKtgssu1IoHYTzUxEilDf.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 20px;
+}
+
+.calculator {
+    width: 400px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    height: 600px;
+}
+
+#display {
+    font-size: 24px;
+    height: 60px;
+    background-color: #f3f3f3;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.2s;
+    margin: 3px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.btn-light {
+    background-color: #e9ecef;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-warning {
+    background-color: #ffca2c;
+    color: black;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}

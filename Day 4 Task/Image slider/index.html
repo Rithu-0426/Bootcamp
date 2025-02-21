@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="align.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="New">
+        <h1 class="hd1">Explore the World</h1>
+        <p class="pg">Discover the most beautiful destinations around the world. Travel, explore, and make unforgettable memories!</p>
+    </div>
+    <div id="touristCarousel" class="carousel slide mx-auto m-0" data-bs-ride="carousel" style="max-width: 900px;">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="EF.jpg" class="d-block w-100" alt="Paris">
+                <div class="carousel-caption d-block">
+                    <h5>Paris, France</h5>
+                    <p>Visit the iconic Eiffel Tower, enjoy delicious pastries, and explore the charm of the City of Love.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="TT1.jpg" class="d-block w-100" alt="Santorini">
+                <div class="carousel-caption d-block">
+                    <h5>Allepey, India</h5>
+                    <p>Alleppy, fondly known as Venice of the East, is a tranquil backwater haven in Kerala, India..</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="t3.jpg" class="d-block w-100" alt="Taj Mahal">
+                <div class="carousel-caption d-block">
+                    <h5>Taj Mahal, India</h5>
+                    <p>A symbol of love and one of the Seven Wonders of the World, built by Emperor Shah Jahan.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="GT.jpg" class="d-block w-100" alt="Great Wall of China">
+                <div class="carousel-caption d-block">
+                    <h5>Great Wall of China</h5>
+                    <p>A magnificent structure that stretches over 13,000 miles, showcasing China's rich history.</p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#touristCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#touristCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="description">
+        <h2 class="hd1">Why Travel?</h2>
+        <p class="pg">Traveling broadens your mind, introduces you to new cultures, and allows you to experience the beauty of the world. Whether it's historic landmarks, natural wonders, or vibrant cities, there's always a new place waiting for you to explore.</p>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

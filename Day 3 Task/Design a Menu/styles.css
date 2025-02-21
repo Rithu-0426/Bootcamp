@@ -1,0 +1,65 @@
+
+.body{
+    font-family: Arial, sans-serif;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background-color: #d9534f;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.section-title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color:lightgoldenrodyellow;
+}
+
+.menu-card {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.menu-card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #d9534f;
+}

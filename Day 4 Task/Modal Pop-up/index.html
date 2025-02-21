@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking - Modal Popup</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container w-100">
+        <div class="text-center">
+            <h1 class="text-dark">Explore Your Dream Destination</h1>
+            <p class="text-white">Book amazing travel packages with exclusive deals!</p>
+
+            <button type="button" class="btn btn-info btn-md text-white" data-bs-toggle="modal" data-bs-target="#travelModal">
+                Show Travel Deals
+            </button>
+        </div>
+    </div>
+
+ 
+    <div class="modal fade" id="travelModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">Special Travel Offer!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body card">
+                    <h4>Paris Getaway - 5 Nights & 6 Days</h4>
+                    <p>Enjoy a luxurious stay in Paris with guided tours, breakfast, and exclusive sightseeing!</p>
+                    <ul>
+                        <li>🏨 5-Star Hotel Stay</li>
+                        <li>✈️ Round-trip Flights</li>
+                        <li>🚶‍♂️ Guided City Tours</li>
+                        <li>🍽️ Complimentary Breakfast</li>
+                    </ul>
+                    <p><strong>Price:</strong> ₹75,000 per person</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

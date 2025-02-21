@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show/Hide Content</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="text-center">
+<div class="container mt-5">
+    <h2 class="text-center mb-4 hd1">Image Gallery</h2>
+
+    <div class="content-section">
+        <button class="btn btn-info w-25 d-flex justify-content-between align-items-center text-white"
+                onclick="toggleContent('content1', this)">
+            <span>Snapshots</span> <i class="fas fa-chevron-down"></i>
+        </button>
+        <div id="content1" class="content-box mt-2">
+            <p>Embark on unforgettable voyages and discover new horizons.</p>
+            <img src="S1.jpg" class="img">
+            <img src="S2.jpg" class="img" >
+            <img src="S3.jpg" class="img">
+        </div>
+    </div>
+
+    <div class="content-section mt-3">
+        <button class="btn btn-secondary w-25 d-flex justify-content-between align-items-center"
+                onclick="toggleContent('content2', this)">
+            <span>Voyages</span> <i class="fas fa-chevron-down"></i>
+        </button>
+        <div id="content2" class="content-box mt-2">
+            <p>Explore the world, capture memories, and cherish the journey
+            </p>
+            <img src="V1.jpg" class="img">
+            <img src="V2.jpg" class="img">
+            <img src="V3.jpg" class="img">
+        </div>
+    </div>
+
+    <div class="content-section mt-3">
+        <button class="btn btn-danger w-25 d-flex justify-content-between align-items-center"
+                onclick="toggleContent('content3', this)">
+            <span>Masterpieces</span> <i class="fas fa-chevron-down"></i>
+        </button>
+        <div id="content3" class="content-box mt-2">
+            <p>Celebrate the beauty of art and creativity in every form.</p>
+            <img src="M1.jpg" class="img">
+            <img src="m2.jpg" class="img">
+            <img src="3.jpg" class="img">
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="align.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    background-size: cover;
+    padding: 20px;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #801f1f49;
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #d81b60;
+}
+
+.card {
+    border: none;
+    margin: 20px;
+    height: auto;
+}
+
+.card img {
+    padding: 20px;
+}
+.card-img-top{
+    margin: 10px;
+}

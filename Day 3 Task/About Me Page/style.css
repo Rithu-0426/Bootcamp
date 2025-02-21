@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://img.freepik.com/premium-photo/top-view-dar…ce-with-smartphone-office-supplies_67155-2963.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    background: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    align-items: center;
+    border-style: double;
+}
+
+.info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.info h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.profile-img {
+    width: 150px;
+    height: 170px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 3px solid;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #bb2d23;
+    transition: transform 0.3s;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+.toggle-button {
+    background-color: #bb2d23;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+
+.toggle-input {
+    display: none;
+}
+
+.details {
+    background: rgb(49, 174, 216);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    margin-top: 20px;
+    text-align: left;
+    display: none;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.toggle-input:checked + .details {
+    display: block;
+    opacity: 1;
+    transform: scale(1);
+}
+
+@media (max-width: 600px) {
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .info {
+        padding-right: 0;
+    }
+    .profile-img {
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-image:radial-gradient( rgb(218, 62, 23),rgb(134, 67, 221));
+}
+
+header {
+    color: darkslateblue;
+    padding: 10px;
+}
+
+section {
+    margin: 20px;
+}
+
+.price {
+    font-weight: bold;
+    color: red;
+}
+
+button {
+    background: lightpink;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
